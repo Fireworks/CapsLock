@@ -1,0 +1,34 @@
+# Enable/disable entire plugin
+enableNoCaps: true
+
+# Enable/disable overriding of messages when caps detected
+enableMessageOverride: false
+
+# Message to override player message if enabled
+overrideMessage: "I like purple penguins!"
+
+# Enable/disable sending a message to a player when caps detected
+enablePlayerMessage: true
+
+# Message to send to player if enabled
+playerMessage: "Sorry, but you used too many caps!"
+
+# Enable/disable forcing lowercase on all messages
+# MessageOverride must be disabled to use this feature
+enableForceLowercase: false
+
+# Maximum caps to allow in a row
+# Allows everything lower than this number
+capsInRow: 5
+
+# Maximum percentage of caps in the message to allow
+totalCapsPercentage: 50
+
+# Phrases to ignore when forcing lowercase
+whitelist:
+  - "I"
+  - "TS"
+  - "IP"
+  - "US"
+  - ":D"
+  - ":P"

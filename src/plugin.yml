@@ -1,0 +1,20 @@
+name: CapsLock
+version: 1.0.1
+authors: [Fireworks]
+
+main: net.mysticrealms.fireworks.capslock.CapsLock
+
+commands:
+  capslock:
+    usage: /capslock <command>
+    description: Master command.
+    aliases: cl
+    permission: capslock.reload
+
+permissions:
+  capslock.ignore:
+    default: op
+    description: Ignore caps restrictions.
+  capslock.reload:
+    default: op
+    description: Reload configuration.
